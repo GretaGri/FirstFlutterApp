@@ -1,6 +1,8 @@
 # My first flutter app
 
 My new Flutter application. One screen, list with cat photos and names, floating action button which clicked adds some random cat.
+<p><img src="android/app/src/main/res/drawable/cat_app.png" width="350"></p>
+<p><img src="android/app/src/main/res/drawable/cat_app_2.png" width="350"></p>
 
 ## Getting Started with Flutter
 
