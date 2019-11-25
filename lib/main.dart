@@ -23,16 +23,16 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   List<Cat> listOfCats = [
     Cat("Cookie",
-        "http://www.cathealthy.ca/wp-content/uploads/2014/06/Home.jpg"),
+        "https://images.unsplash.com/photo-1445499348736-29b6cdfc03b9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=60"),
     Cat("Boobie",
-        "https://www.rspcapetinsurance.org.au/getattachment/1d38bbc7-a213-4b2e-b2eb-9246af080204/grooming-your-cat.aspx"),
-    Cat("Snookie", "https://scx2.b-cdn.net/gfx/news/hires/2019/1-cat.jpg"),
+        "https://images.unsplash.com/photo-1515002246390-7bf7e8f87b54?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=60"),
+    Cat("Snookie", "https://images.unsplash.com/photo-1509670161296-18d69c8f2ffd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=60"),
   ];
 
   void onButtonPressed() {
     setState(() {
       listOfCats.add(Cat("Random cat",
-          "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cat-quotes-1543599392.jpg"));
+          "https://images.unsplash.com/photo-1533743983669-94fa5c4338ec?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=60"));
     });
     print(listOfCats);
   }
@@ -43,7 +43,8 @@ class _MyHomePageState extends State<MyHomePage> {
       listOfCatCards.add(CatCard(cat));
     }
     return Scaffold(
-        appBar: AppBar(title: Text("Cat app")),
+        appBar: AppBar(title: Text("Cat app"),
+        backgroundColor: Colors.amber.withOpacity(0.8),),
         floatingActionButton: FloatingActionButton(
           onPressed: onButtonPressed,
           backgroundColor: Colors.amber,

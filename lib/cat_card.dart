@@ -15,7 +15,7 @@ class CatCard extends StatelessWidget {
       padding: EdgeInsets.only(top:8, left: 16, right: 16),
       child: Container(
         height: 100,
-        color: Colors.pinkAccent.withOpacity(0.5),
+        color: Colors.brown.withOpacity(0.4),
         child: Row(
             children: [Image(image: NetworkImage(cat.url),
             height: 100,
