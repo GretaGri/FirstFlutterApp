@@ -1,10 +1,8 @@
-# catapp
+# My first flutter app
 
-A new Flutter application.
+My new Flutter application. One screen, list with cat photos and names, floating action button which clicked adds some random cat.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
+## Getting Started with Flutter
 
 A few resources to get you started if this is your first Flutter project:
 
